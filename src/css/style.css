@@ -5,14 +5,12 @@ body {
     background-color: #d9d9d9;
 }
 
-/* Cabeçalho */
 header {
     background-color: #730A13;
     color: #8F9460;
     padding: 10px;
 }
 
-/* Menu de navegação */
 nav {
     background-color:#960C19;
     padding: 10px;
@@ -29,12 +27,49 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Conteúdo principal */
 main {
     padding: 20px;
 }
 
-/* Rodapé */
+.texto-principal {
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+    margin-bottom: 20px;
+}
+
+table {
+    background-color: #b0acac;
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #302d2d;
+    padding: 10px;
+    text-align: center;
+}
+
+.paragrafo_visita, .introdução, .tabela_vinhos, .formulario {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+
+img {
+    max-width: 500px;
+    height: auto;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
 footer {
     background-color: #960C19;
     color: white;
