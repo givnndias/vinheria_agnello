@@ -2,10 +2,11 @@ body {
   background-color: #d9d9d9;
 }
 .caixa-texto {
-  background-color: #f0f0f0; /* Cor de fundo da caixa */
+  background-color: lightgray; /* Cor de fundo da caixa */
   color: #333;               /* Cor do texto */
   padding: 20px;             /* Espaçamento interno */
   width: 80%;                /* Largura relativa à tela */
   max-width: 600px;          /* Largura máxima */
   margin: 40px auto;         /* Centraliza horizontalmente */
-    }
+  }
+    
