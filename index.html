@@ -2,29 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="vinhos, merlot, vinheria, produtos">
     <title>Merlot</title>
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
     <header>
-        <h1>Merlot</h1>
+        <img src="src/assets/logoo.png" alt="logo merlot" class="logo">
         <nav>
             <a href="index.html">Início</a>
             <a href="/src/pages/historia.html">História</a>
             <a href="/src/pages/produtos.html">Produtos</a>
-            <a href="/src/pages/galeria.html">Galeria</a>
             <a href="/src/pages/equipe.html">Equipe</a>
             <a href="/src/pages/contato.html">Contato</a>
         </nav>
     </header>
     <main>
         <section class="introdução"> <!-- Introdução -->
-            <h2>Quem Somos</h2>
+            <h1>Quem Somos</h1>
             <p class="texto-principal">Bem-vindo à Merlot Vinheria, onde a paixão pelo vinho encontra a tradição e a excelência. Fundada em 1990, nossa vinheria tem se dedicado a produzir vinhos de alta qualidade que refletem o terroir único de nossa região. Com uma equipe experiente e um compromisso inabalável com a sustentabilidade, buscamos criar vinhos que encantam os sentidos e celebram a arte da viticultura.</p>
         </section>
         <section class="tabela_vinhos">
-            <h3>Nossos vinhos</h3>
+            <h2>Nossos vinhos</h2>
             <p class="texto-principal">Na Merlot Vinheria, oferecemos uma seleção diversificada de vinhos que atendem a todos os gostos. Desde tintos encorpados até brancos refrescantes e espumantes elegantes, cada garrafa é cuidadosamente elaborada para garantir a melhor experiência possível. Nossos vinhos são perfeitos para acompanhar refeições, celebrar ocasiões especiais ou simplesmente desfrutar de um momento de relaxamento.</p>
             <div>
                 <table border="2">
@@ -62,7 +61,7 @@
             </div>
         </section>
         <section class="paragrafo_visita">
-            <h4>Visite Nossa Vinheria</h4>
+            <h3>Visite Nossa Vinheria</h3>
             <p class="texto-principal">Convidamos você a visitar nossa vinheria e experimentar nossos vinhos diretamente na fonte. Oferecemos tours guiados pelas nossas vinhas e instalações de produção, onde você pode aprender sobre o processo de vinificação e degustar uma seleção de nossos melhores rótulos. Nossa equipe está ansiosa para recebê-lo e compartilhar a paixão pelo vinho que nos motiva todos os dias.</p>
             <img src="src/assets/vinicola1.webp" alt="Vinheria Merlot">
             <img src="src/assets/vinicola2.webp" alt="Tour pela Vinheria Merlot">
@@ -70,25 +69,24 @@
             
         </section>
         <section class="formulario">
-             <h5>Torne-se Sócio Merlot</h5>
-            <p class="texto-principal">Junte-se ao nosso clube de vinhos exclusivo, o Sócio Merlot, e desfrute de benefícios especiais, incluindo descontos em compras, acesso antecipado a novos lançamentos e convites para eventos exclusivos. Preencha o formulário abaixo para se inscrever e começar a aproveitar todas as vantagens de ser um membro do nosso clube.</p>
             <fieldset><br>
-                <legend><strong>Faça parte da nossa história</strong></legend>
+                <legend><strong>Cadastre seu email e receba nossas ofertas</strong></legend>
+                <p>Nada como descobrir um sabor novo, uma nova uva ou região. E aproveitando o cupom de 10% de desconto, aí é melhor ainda. Já se cadastre e receba nossas ofertas e saiba dos lançamentos em primeira mão!</p>
             <form>
                 <div>É maior de idade?</div>
                 <span>Sim</span>
-                <input type="radio" id="sim" name="idade" value="sim"><br>
+                <input type="radio" id="sim" name="idade" value="sim">
                 <span>Não</span>
-                <input type="radio" id="nao" name="idade" value="nao"><br>
+                <input type="radio" id="nao" name="idade" value="nao">
             </form><br>
             <form>
                 <div>Sexo:</div>
                 <span>Masculino</span>
-                <input type="radio" id="masculino" name="sexo" value="masculino"><br>
+                <input type="radio" id="masculino" name="sexo" value="masculino">
                 <span>Feminino</span>
-                <input type="radio" id="feminino" name="sexo" value="feminino"><br>
+                <input type="radio" id="feminino" name="sexo" value="feminino">
                 <span>Outros</span>
-                <input type="radio" id="outros" name="sexo" value="outros"><br>
+                <input type="radio" id="outros" name="sexo" value="outros">
             </form><br>
             <form>
                 <div>Preferência de vinhos:</div>
@@ -97,18 +95,21 @@
                 <span>Branco</span>
                 <input type="checkbox" name="preferencia" value="branco"><br>
                 <span>Rosé</span>
-                <input type="checkbox" name="preferencia" value="rose"><br>       
+                <input type="checkbox" name="preferencia" value="rose"><br>      
                 <span>Espumante</span>
                 <input type="checkbox" name="preferencia" value="espumante"><br>
             </form><br>
 
             <form action="#" method="post">
                 <label for="nome">Nome:</label>
-                <input type="text" name="nome" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="text" id="nome" name="nome" required><br><br>
 
-                <button type="submit">Assinar</button>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="comentario">Deixe um comentário (opcional):</label><br>
+                <textarea id="comentario" name="comentario" rows="4"></textarea><br><br>
+                <button>Assinar</button>
             </form>
             </fieldset>
         </section>
