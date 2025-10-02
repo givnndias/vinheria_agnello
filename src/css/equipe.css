@@ -1,0 +1,21 @@
+
+.caixa-texto {
+  background-color: lightgray; /* Cor de fundo da caixa */
+  color: #333;               /* Cor do texto */
+  padding: 20px;             /* Espaçamento interno */
+  width: 80%;                /* Largura relativa à tela */
+  max-width: 600px;          /* Largura máxima */ 
+
+}
+
+.time {
+    display: flex;
+    justify-content: space-around; /* Espaça os membros igualmente */
+    padding: 50px 30px;
+    gap: 30px; /* Espaço entre os cartões */
+    flex-wrap: wrap; /* Permite que os cards quebrem para a linha de baixo em telas menores */
+}
+
+.membrosdotime{
+    text-align: center;
+    max-width: 280px; /* Largura de cada cartão de membro */
