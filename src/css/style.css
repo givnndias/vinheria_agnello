@@ -9,6 +9,15 @@ header {
     background-color: #730A13;
     color: #8F9460;
     padding: 10px;
+    
+}
+
+.logo {
+    font-family: "Rozha One", serif;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 10px;
 }
 
 nav {
@@ -70,10 +79,22 @@ fieldset {
     
 }
 
-footer {
+ 
+button {
     background-color: #960C19;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #730A13;
     color: white;
     text-align: center;
     padding: 1em 0;
     margin-top: 20px;
 }
+
+
