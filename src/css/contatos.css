@@ -6,23 +6,15 @@ body {
 }
 
 /* Estilos para o cabeçalho com logo */
-.header-principal {
-  /*display: flex; Coloca os itens lado a lado*/
-  align-items: center; /* Alinha verticalmente ao centro */
-  gap: 10px; /* Cria um espaço de 20px entre o logo e o título */
-  margin-bottom: 5px; /* Adiciona um espaço abaixo, antes do parágrafo */
+header {
+  background-color: #730A13;
+  padding: 10px;
+   
 }
 
 .logo {
   height: 80px; /* Define a altura do logo. Ajuste conforme necessário! */
   width: auto;  /* A largura se ajusta automaticamente para manter a proporção */
-}
-
-header {
-  background-color: #730A13;
-  color: white;
-  padding: 30px;
-  text-align: center;
 }
 
 section {
