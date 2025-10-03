@@ -1,23 +1,40 @@
 
-.caixa-texto {
-  background-color: lightgray; /* Cor de fundo da caixa */
-  color: #333;               /* Cor do texto */
-  padding: 20px;             /* Espaçamento interno */
-  width: 80%;                /* Largura relativa à tela */
-  max-width: 600px;          /* Largura máxima */ 
-
+.descricao {
+  background-color: #b0acac;
+  color: #333;               
+  padding: 20px 70px;            
+  width: 70%;                
+  max-width: 300px;          
 }
 
 .equipe {
     display: flex;
-    justify-content: space-around; /* Espaça os membros igualmente */
-    padding: 50px 30px;
+    justify-content: baseline;
+    padding: 30px 30px;
     text-align: center;
     max-width: 400px; 
 
 }
 
-    
-.intro{
-  color:#black
+.nomes {
+    display: flex;
+    justify-content:center;
+    padding: 10px 20px;
+    max-width: 400px; 
+
+}
+
+.sub{
+    color: #730A13; 
+    padding: 0px 20px;  
+    max-width: 500px; 
+
+
+}
+
+.titulo{
+  color:black;               
+  padding: 0px 20px;                    
+  max-width: 1000px;  
+
 }

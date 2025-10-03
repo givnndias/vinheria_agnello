@@ -1,10 +1,25 @@
 
 .caixa-texto {
-  background-color: lightgray; /* Cor de fundo da caixa */
-  color: #333;               /* Cor do texto */
-  padding: 20px;             /* Espaçamento interno */
-  width: 80%;                /* Largura relativa à tela */
-  max-width: 600px;          /* Largura máxima */ 
+  background-color: lightgray; 
+  color: #333;               
+  padding: 20px;             
+  width: 80%;                
+  max-width: 600px;         
 
 }
+.video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  .tituloVideo{
+    justify-content: center;
+    padding: 20px;             
+    width: 80%;                
+    max-width: 1400px;      
+  }
+
+
+
 
