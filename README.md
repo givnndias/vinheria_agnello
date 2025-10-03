@@ -47,4 +47,4 @@ Como resposta a este desafio, o website da **Vinheria Merlot** foi concebido par
 * Maria Laura Pereira Druzeic.
 
 🔗 **Link para o site no GitHub Pages**
-*
+* https://givnndias.github.io/vinheria_agnello/
