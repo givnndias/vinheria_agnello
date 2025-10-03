@@ -18,10 +18,14 @@
 
 .nomes {
     font-size: 2em;
-    color: #black;
-    margin:10px;
+    color: black;
+    margin: 10px;
   }
 
-.descricao{
-
+footer {
+    background-color: #730A13;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 20px;
 }
