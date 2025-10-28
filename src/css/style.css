@@ -1,3 +1,5 @@
+@import url(efeitos.css);
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -48,16 +50,14 @@ main {
 }
 
 table {
-    background-color: #b0acac;
-    width: 100%;
-    margin-bottom: 20px;
-    border-collapse: collapse;
+  border-collapse: collapse; 
+  width: 100%;
 }
 
-td {
-    border: 1px solid #302d2d;
-    padding: 10px;
-    text-align: center;
+th, td {
+  border: 1px solid #b48a60;
+  padding: 10px;
+  text-align: left;
 }
 
 .paragrafo_visita, .introdução, .tabela_vinhos, .formulario {
@@ -73,12 +73,11 @@ img {
 }
 
 fieldset {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 20px;
-    
+    border: 2px dashed #960C19;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fffdf9;   
 }
-
  
 button {
     background-color: #960C19;
@@ -96,5 +95,6 @@ footer {
     padding: 1em 0;
     margin-top: 20px;
 }
+
 
 
