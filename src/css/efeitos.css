@@ -1,14 +1,3 @@
-.animacao_produtos {
-    animation-duration: 5s;
-    animation-name: descubra;
-    animation-iteration-count: infinite;
-}
-
-@keyframes descubra {
-    0% { opacity: 0 }
-    100% { opacity: 1 }
-}
-
 header {
     position: sticky; 
     top: 0;
