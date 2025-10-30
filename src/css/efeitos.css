@@ -121,4 +121,41 @@ footer img:hover {
   transform: translateY(-5px); 
 }
 
+@keyframes aparecer{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+.descricao {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: unset;
+  }
+
+.titulo{
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: unset;
+  }
+  
+.nomes {
+   animation-duration: 2s;
+   animation-name: aparecer;
+   animation-iteration-count: unset;
+
+}
+
+
+.video{
+  background-image: linear-gradient(to bottom, #730A13, white);
+
+}
+
+.container1 {
+display:grid;
+justify-content: center;
+
+}
+
+
 
