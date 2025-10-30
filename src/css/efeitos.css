@@ -85,6 +85,19 @@ footer img:hover {
   transform: rotate(10deg) scale(1.15);
 }
 
+.info-contato {
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 
+.info-contato:hover {
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+  transform: translateY(-5px); 
+}
 
 
