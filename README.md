@@ -35,6 +35,30 @@ Como resposta a este desafio, o website da **Vinheria Merlot** foi concebido par
 * **Convite para Visita:** Uma seção que reforça a existência do espaço físico, convidando os usuários para uma experiência presencial e humanizando a marca.
 * **Formulário de Cadastro:** Uma área interativa para capturar leads e segmentar clientes de acordo com suas preferências de vinho.
 
+✨ **Efeitos Visuais (Checkpoint 02)**  
+
+🎯 **Pseudo-classes aplicadas**  
+* **:hover —** aplicada em botões, imagens e formulários, gerando efeitos de destaque com transições suaves.  
+* **:focus —** usada em `input` e `textarea` para indicar o campo ativo, com borda e sombra em tom vinho.  
+* **:active —** aplicada em links (`a:active`) para alterar a cor no momento do clique.  
+
+🎨 **Pseudo-elementos aplicados**  
+* **::selection —** muda a cor do fundo e do texto ao selecionar parágrafos (`p::selection`).  
+* **::placeholder —** estiliza o texto dos campos de formulário, reforçando a identidade visual da vinheria.  
+
+💫 **Animações e transições**  
+* **Animação “descubra” (`@keyframes descubra`)**  
+  Aplicada à classe `.animacao_produtos`, cria um efeito de transição suave de opacidade, simulando um “piscar” contínuo.  
+  **Propriedades:** `animation-duration: 3s; animation-iteration-count: infinite;`  
+
+* **Transições suaves:**  
+  Utilizadas em imagens, botões e containers, com efeitos de cor, sombra e transformação (`transition: 0.3s–0.4s ease`).  
+
+🎢 **Transformações CSS**  
+* **scale() —** aplicado em imagens e botões, aumentando levemente o tamanho no `hover`.  
+* **rotate() —** usado em ícones do rodapé, criando um efeito de rotação sutil.  
+* **translateY() —** aplicado em `.info-contato:hover`, movendo o card levemente para cima.  
+
 🛠️ **Tecnologias**
 
 * **HTML:** Utilizado para a estruturação semântica de todo o conteúdo.
