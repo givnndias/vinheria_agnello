@@ -1,24 +1,37 @@
-
 .caixa-texto {
+  border-radius: 20px;
+  font-size: 25px ;
   background-color: lightgray; 
   color: #333;               
   padding: 20px;             
   width: 80%;                
-  max-width: 600px;         
+  max-width: 1000px;         
 
 }
-.video{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.video{        
+  padding:30px;
+  width: 1000px;
+  height: 515px;
+  border-radius: 40px;
+  display: block;
+  margin: 0 auto;
   
-  }
+
+}
+
+ 
   .tituloVideo{
-    justify-content: center;
     padding: 20px;             
-    width: 80%;                
-    max-width: 1400px;      
-  }
+    width: 86%;   
+    display:grid;
+    justify-content: center;
+    }
+               
+  
+
+
+
 
 footer {
     background-color: #730A13;
